@@ -1,0 +1,27 @@
+.loginContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #310e6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #310e6a;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
